@@ -63,7 +63,7 @@ class CNN:
        counts = training_labels.value_counts()
        print(counts)
 
-       # accoutning for imbalanced data
+       # accounting for imbalanced data
        nPos = counts[1]
        nNeg = counts[-1]
        total = nPos + nNeg
